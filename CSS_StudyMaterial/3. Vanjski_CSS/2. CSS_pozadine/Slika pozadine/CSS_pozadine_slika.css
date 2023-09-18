@@ -1,0 +1,21 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: #333;
+    background-color: aliceblue;
+    background-image: url("../leptiri.jpg");
+    background-repeat: repeat-x;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: 25%;
+}
+
+
+/* Svojstvo background-repeat: repeat-x, repeat-y, no-repeat, */
+/*Svojstvo background-position: [x] [y] prvo pišemo vrijednost po x osi (left, right, center), a zatim po y osi (top, bottom, center), pa tako može biti left bottom, ili right top, ali i u px npr. 50px 100px*/
+/* Svojstvo background-attachment: scroll, fixed, local, inherit */
+/* Svojstvo background-size: auto, vrijednost, cover, contain, inherit*/
+
+/* Background: background-color background-image background-position background-size background-repeat background-attachment; (jedna deklaracija za sva svojstva)*/
+
+/**/

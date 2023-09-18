@@ -1,0 +1,49 @@
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: green;
+}
+
+/* Za uređenje fonta možeo koristiti i svojstvo font-style koji može imati vrijednosti: normal, italic, oblique (kurzivna verzija) i inherit*/
+
+div>p:nth-of-type(2) {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    color: blue;
+    text-align: right;
+}
+
+div>p:nth-of-type(3) {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    color: yellow;
+    font-weight: bold;
+}
+
+/* Vrijednosti svojstva text-align mogu biti: left, right, center, justify, inherit*/
+/* Vrijednosti svojstva font-weight mogu biti: normal, bold, bolder, lighter, inherit */
+.normal {
+    font-weight: normal;
+    color: blueviolet;
+    
+}
+
+.bold {
+    font-weight: bold;
+    color: blueviolet;
+}
+
+.bolder {
+    font-weight: bolder;
+    text-shadow: 4px 5px 6px black; /* Svojstvo text-shadow sintaksa: h-shadow, v-shadow, blur radius, color*/
+}
+
+.lighter {
+    font-weight: lighter;
+    text-decoration: underline; /* Svojstvo text-decoration: none, underline, overline, line-throught, inherit*/
+}
+
+/*Svojstvo line-height: normal, broj (koji se množi s vrijednosti svojstva font-size), %, inherit*/
+/* Svojstvo color: ime, RGB ili heksadecimalna vrijednost*/
+/* Svojstvo text-transform: none, capitalize, uppercase, lowercase, inherit*/
+
